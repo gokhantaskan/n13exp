@@ -1,18 +1,13 @@
-import { Navbar } from "@/components/Navbar";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col p-4">
-      <h1 className="text-6xl font-bold text-center">
-        Welcome to{" "}
-        <a
-          className="text-blue-500 hover:text-blue-600"
-          href="https://nextjs.org"
-          target="_blank"
-        >
-          Next.js!
-        </a>
-      </h1>
+    <main className="container py-4">
+      <h1 className="text-6xl font-bold mb-4">Home</h1>
+
+      <div>
+        Go to <Link href="/login">login</Link>
+      </div>
     </main>
   );
 }

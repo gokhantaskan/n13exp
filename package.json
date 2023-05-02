@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --ext js,cjs,mjs,ts,cts,mts,jsx,tsx,mdx --fix --ignore-path .gitignore",
-    "format": "prettier --write \"**/*\" -l -u --no-error-on-unmatched-pattern"
+    "eslint": "eslint . --ext js,cjs,mjs,ts,cts,mts,jsx,tsx,mdx --fix --ignore-path .gitignore",
+    "prettier": "prettier --write \"**/*\" -l -u --no-error-on-unmatched-pattern",
+    "lint": "npm run prettier && npm run eslint"
   },
   "dependencies": {
     "clsx": "^1.2.1",

@@ -2,7 +2,7 @@ import clsx from "clsx";
 
 export function Navbar() {
   return (
-    <nav className="h-[64px] border-b border-gray-700">
+    <nav className="h-[64px] border-b">
       <div
         className={clsx(
           "container h-full",
