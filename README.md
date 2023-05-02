@@ -1,3 +1,12 @@
+# Note
+
+This branch currently is not working due to the issue with Next.js 13 experimental app directory - server components - and `emotion` libraries.
+This branch will be improved after `emotion` Next.js 13 support is implemented.
+
+Details here: https://github.com/emotion-js/emotion/issues/2928
+
+--
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
