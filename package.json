@@ -6,19 +6,27 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --ext js,cjs,mjs,ts,cts,mts,jsx,tsx,mdx --fix --ignore-path .gitignore"
+    "lint": "eslint . --ext js,cjs,mjs,ts,cts,mts,jsx,tsx,mdx --fix --ignore-path .gitignore",
+    "format": "prettier --write \"**/*\" -l -u --no-error-on-unmatched-pattern"
   },
   "dependencies": {
-    "@types/node": "18.16.3",
-    "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.1",
-    "autoprefixer": "10.4.14",
-    "eslint": "8.39.0",
-    "eslint-config-next": "13.3.4",
+    "clsx": "^1.2.1",
     "next": "13.3.4",
-    "postcss": "8.4.23",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.16.3",
+    "@types/react-dom": "18.2.1",
+    "@types/react": "18.2.0",
+    "autoprefixer": "10.4.14",
+    "eslint-config-next": "13.3.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint": "8.39.0",
+    "postcss": "8.4.23",
+    "prettier": "^2.8.8",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4"
   }
